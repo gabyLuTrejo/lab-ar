@@ -171,10 +171,33 @@ hr {
 }
 
 
+footer{
+  background-color: black;
+  width: 100%;
+  height: auto;
+}
+
+.iconosFooter{
+  color:white;
+}
+
+.iconosFooter:hover{
+    color: azure;
+    cursor:pointer;
+}
+
+footer li{
+    list-style: none;
+    color:white;
+    cursor:pointer;
+}
+
+footer li:hover{
+    text-decoration: underline;
+}
 
 
-
-#badges + a + ul {
+/*#badges + a + ul {
   margin: 10px 0 0;
 }
 
@@ -197,11 +220,11 @@ footer {
   background-color: #222222;
   width: 100%;
   text-align: center;
-}
+}*/
 
 footer span{
-  font-size: 170%;
-  padding: 10px;
+  font-size: 110%;
+  padding: 0 10px;
   color: #9d9d7e;
 }
 footer p {
