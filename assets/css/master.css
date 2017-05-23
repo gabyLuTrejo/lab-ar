@@ -137,6 +137,23 @@ hr {
   font-size: 17px;
 }
 
+#secc3 {
+  background-image: url("../img/conduce.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  margin-right: 0!important;
+}
+
+#secc3 .col-sm-4, #secc3 .col-md-34 {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 35px;
+  padding-top: 70px;
+}
+
+
 
 
 .thumbnail {
