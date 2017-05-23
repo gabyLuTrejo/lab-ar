@@ -49,6 +49,23 @@
     }
   }
 /***********Estilos Agregados***********/
+.navbar-default {
+  min-height: 100px;
+  padding-top: 1.8%;
+}
+
+.navbar-right {
+  margin-right: 10%;
+}
+
+.navbar-header {
+  margin-left: 7%!important;
+}
+
+#bodyContainer {
+  margin-bottom: 99px;
+}
+
 .thumbnail {
   width:80%;
 }
