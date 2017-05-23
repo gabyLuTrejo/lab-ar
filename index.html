@@ -49,7 +49,7 @@
                   Viaja con
                   <img src="assets\img\logoBlanco.png" alt="Logo">
                 </h3>
-                <button type="button" class="btn btn-default btn-sm">
+                <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#registro">
                   <h4 class="w-400">REGÍSTRATE</h4>
                 </button>
               </div>
@@ -159,7 +159,81 @@
         </div>
       </div>
     </div>
-
+    <!-- Modal registro -->
+    <div class="modal fade" id="registro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h2 class="modal-title text-center label-default white" id="myModalLabel2">¿YA TIENES UNA CUENTA?</h2>
+            <p class="text-center"> O CREA UNA CUENTA NUEVA</p>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-inline">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Apellido">
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Correo electrónico name@example.com">
+              </div>
+              <div class="form-group">
+                <input type="number" class="form-control" placeholder="Telefono">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" placeholder="Contraseña">
+              </div>
+              <div class="form-group">
+                <input type="ciudad" class="form-control" placeholder="Ciudad">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="(Opcional) Código de invitación">
+              </div>
+              <div class="dropdown">
+              <button class="btn btn-default btn-lg dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                ¿Cómo te enteraste acerca de nosotros?
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Conductor -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
    <footer class="clearfix bs-docs-footer">
      <div class="col-md-10 col-md-offset-1">
