@@ -62,9 +62,50 @@
   margin-left: 7%!important;
 }
 
-#bodyContainer {
-  margin-bottom: 99px;
+#secc1 {
+  background-image: url("../img/taxi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 800px;
+  margin-right: 0!important;
 }
+
+#secc1 .container-fluid, #secc1 .container-fluid div {
+  width: 100%;
+  height: 100%;
+}
+
+#secc1 form {
+  background-color: #FFC107;
+  margin-top: 100px;
+  padding: 15px 15px;
+}
+
+#secc1 .row {
+  padding: 10% 0;
+}
+
+.white {
+  color: white;
+}
+
+.w-400 {
+  font-weight: 400;
+}
+
+hr {
+  display: inline-block;
+  width: 40%;
+  margin-bottom: 4px;
+}
+
+.d-lb {
+  display: inline;
+  padding: 0 24px;
+}
+
 
 .thumbnail {
   width:80%;
