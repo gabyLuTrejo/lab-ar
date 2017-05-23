@@ -49,6 +49,7 @@
     }
   }
 /***********Estilos Agregados***********/
+
 .navbar-default {
   min-height: 100px;
   padding-top: 1.8%;
@@ -83,16 +84,19 @@
 
 #secc1 form {
   background-color: #FFC107;
-  margin-top: 100px;
   padding: 15px 15px;
 }
 
 #secc1 .row {
-  padding: 10% 0;
+  padding: 17% 0;
 }
 
 .white {
   color: white;
+}
+
+.w-700 {
+  font-weight: 700;
 }
 
 .w-400 {
@@ -182,7 +186,6 @@ footer{
 }
 
 .iconosFooter:hover{
-    color: azure;
     cursor:pointer;
 }
 
@@ -197,31 +200,6 @@ footer li:hover{
 }
 
 
-/*#badges + a + ul {
-  margin: 10px 0 0;
-}
-
-#menus + div ul {
-  position: static;
-  display: block;
-  margin-bottom: 5px;
-  clear: left;
-}
-
-.justifyText{
-  text-align: justify;
-}
-
-.carousel-inner .item img {
-  width: 100%;
-}
-
-footer {
-  background-color: #222222;
-  width: 100%;
-  text-align: center;
-}*/
-
 footer span{
   font-size: 110%;
   padding: 0 10px;
@@ -230,4 +208,24 @@ footer span{
 footer p {
   font-size: 90%;
   color: #9d9d7e;
+}
+
+
+/******************MODALES******************/
+
+#iniciarSesion .modal-content {
+  background-color: rgb(8, 172, 157);
+  height: 480px;
+}
+
+#iniciarSesion a {
+  color: brown;
+}
+
+#iniciarSesion a:hover {
+  color: #2b1d31;
+}
+
+.m-20 {
+  margin: 20px 30%;
 }
