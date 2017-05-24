@@ -1,54 +1,7 @@
-/***********Responsive***********/
-  @media (max-width: 992px){
-    .label {
-      font-size: 60%;
-    }
-  }
-  @media (max-width: 648px){
-    .btn {
-      font-size: 7px;
-    }
-    .btn-lg {
-      font-size: 11px;
-    }
-    .btn-sm, .btn-xs {
-      font-size: 5px;
-    }
-    .label {
-      font-size: 50%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 10px;
-      margin-bottom: 5px;
-    }
-  }
-  @media (max-width: 547px){
-    .label {
-      font-size: 40%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 5px;
-      margin-bottom: 2px;
-    }
-  }
-  @media (max-width: 490px){
-    .btn {
-      font-size: 7px;
-    }
-    .label {
-      font-size: 30%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 3px;
-      margin-bottom: 2px;
-    }
-  }
-  @media (max-width: 414px){
-    .btn {
-      font-size: 5px;
-    }
-  }
 /***********Estilos Agregados***********/
+.mobile-disp{
+  display: none;
+}
 
 .navbar-default {
   min-height: 100px;
@@ -61,6 +14,10 @@
 
 .navbar-header {
   margin-left: 7%!important;
+}
+
+.navbar-right > li:hover {
+  background-color: #e7e7e7;
 }
 
 .secc {
@@ -105,13 +62,17 @@
 
 hr {
   display: inline-block;
-  width: 40%;
-  margin-bottom: 4px;
+  width: 38%;
+  margin-bottom: 5px;
 }
 
 .d-lb {
   display: inline;
   padding: 0 24px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
 }
 
 #secc2 {
@@ -159,6 +120,11 @@ hr {
   background-color: #FFC107;
 }
 
+#secc4 input::-webkit-input-placeholder {
+  color: white;
+  font-size: 90%;
+}
+
 .thumbnail {
   width: 35%;
 }
@@ -173,7 +139,6 @@ hr {
   border: 1px solid white;
   width: 60%;
 }
-
 
 footer{
   background-color: black;
@@ -229,3 +194,57 @@ footer p {
 .m-20 {
   margin: 20px 30%;
 }
+
+/***********Responsive***********/
+  @media (max-width: 992px){
+    .label {
+      font-size: 60%;
+    }
+  }
+  @media (max-width: 768px){
+    .mobile-disp{
+      display: block;
+    }
+    .desktop {
+      display: none;
+    }
+  }
+  @media (max-width: 648px){
+    .btn {
+      font-size: 7px;
+    }
+    .btn-lg {
+      font-size: 11px;
+    }
+    .btn-sm, .btn-xs {
+      font-size: 5px;
+    }
+    .label {
+      font-size: 50%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+  }
+  @media (max-width: 547px){
+    .label {
+      font-size: 40%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 5px;
+      margin-bottom: 2px;
+    }
+  }
+  @media (max-width: 490px){
+    .btn {
+      font-size: 7px;
+    }
+    .label {
+      font-size: 30%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 3px;
+      margin-bottom: 2px;
+    }
+  }
