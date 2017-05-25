@@ -201,6 +201,15 @@ footer p {
 .col-12 {
   width: 100%;
 }
+
+.lb-black {
+  background-color: black;
+}
+
+.gray {
+  color: rgba(176, 176, 176, 0.9);
+  font-weight: bolder;
+}
 /***********Responsive***********/
   @media (max-width: 992px){
     .label, #secc1 p {

@@ -175,12 +175,12 @@
     <!-- Modal registro -->
     <div class="modal fade" id="registro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
-        <div class="modal-content">
+        <div class="modal-content col-md-8 col-md-offset-2">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           </div>
           <div class="modal-body">
-            <h2 class="modal-title text-center label-default white" id="myModalLabel2">¿YA TIENES UNA CUENTA?</h2>
+            <h4 class="modal-title text-center label-default lb-black white" id="myModalLabel2">¿YA TIENES UNA CUENTA?</h4>
             <p class="text-center"> O CREA UNA CUENTA NUEVA</p>
             <form>
               <div class="form-group row">
@@ -206,8 +206,8 @@
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="(Opcional) Código de invitación">
               </div>
-              <div class="dropdown">
-              <button class="btn btn-primary dropdown-toggle col-12" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <div class="dropdown form-group">
+              <button class="btn btn-default dropdown-toggle col-12" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                 ¿Cómo te enteraste acerca de nosotros?
                 <span class="caret"></span>
               </button>
@@ -219,7 +219,7 @@
                 <li><a href="#">Separated link</a></li>
               </ul>
             </div>
-              <button type="submit" class="btn btn-default">Submit</button>
+              <button type="submit" class="btn btn-primary col-12">Enviar</button>
             </form>
           </div>
         </div>
@@ -228,70 +228,58 @@
     <!-- Modal Conductor -->
     <div class="modal fade" id="conductor" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
-        <div class="modal-content">
+        <div class="modal-content col-md-8 col-md-offset-2">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           </div>
           <div class="modal-body">
             <form>
-              <div class="dropdown">
-                <button class="btn btn-default col-md-9 dropdown-toggle" type="button" id="dropMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                  ¿TIENES UN VEHÍCULO DE CUATRO PUERTAS?
-                  <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                  <li> Si </li>
-                  <li> No </li>
-                </ul>
-              </div>
-              <div class="dropdown">
-                <button class="btn btn-default col-md-9 dropdown-toggle" type="button" id="dropMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                  MARCA
-                  <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                  <li> Si </li>
-                  <li> No </li>
-                </ul>
-              </div>
+              <label class="gray">¿TIENES UN VEHÍCULO DE CUATRO PUERTAS?</label>
+              <select class="form-control">
+                <option>Si</option>
+                <option>No</option>
+              </select>
+              <label class="gray">MARCA</label>
+              <select class="form-control">
+                <option>Marca A </option>
+                <option>Marca B </option>
+                <option>Marca C </option>
+              </select>
+              <p>¿No ves tu vehículo en la lista? Envía un correo electrónico a
+                <a href="#">sociosmvd@labCar.com</a>
+              </p>
+              <label class="gray">MODELO</label>
+              <select class="form-control">
+                <option> Modelo A </option>
+                <option> Modelo B </option>
+                <option> Modelo C </option>
+              </select>
+              <label class="gray">AÑO</label>
+              <select class="form-control">
+                <option> 2017 </option>
+                <option> 2010 </option>
+                <option> 2000 </option>
+              </select>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Nombre">
+                <label class="gray"> NÚMERO DE LA MATRÍCULA</label>
+                <input type="text" class="form-control" placeholder="Número de la matrícula">
               </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Apellido">
-              </div>
-              <div class="dropdown">
-                <button class="btn btn-default btn-lg dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                  ¿Cómo te enteraste acerca de nosotros?
-                  <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                </ul>
-              </div>
-              <button type="submit" class="btn btn-default">Submit</button>
+              <p>La información de la matrícula ayuda a los clientes a identificar tu vehículo.</p>
+              <button type="submit" class="btn btn-primary col-12">Enviar</button>
             </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div>
       </div>
     </div>
 
    <footer class="clearfix bs-docs-footer">
-     <div class="col-md-10 col-md-offset-1">
+     <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
        <div class="page-header">
          <img src="assets/img/logoBlanco.png" alt="Logo">
        </div>
        <div class="page-header">
          <div class="row">
-           <div class="col-md-3">
+           <div class="col-md-3 col-sm-3">
               <div class="iconosFooter center-block">
                <i class="fa fa-facebook" aria-hidden="true"></i>
                <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -323,7 +311,7 @@
               <li>Coders</li>
             </ul>
            </div>
-           <div class="col-md-3">
+           <div class="col-md-3 col-sm-3">
              <img src="assets/img/enBadgeWebGeneric.png" alt="">
              <p></p>
              <img src="assets/img/appstore.png" alt="">
