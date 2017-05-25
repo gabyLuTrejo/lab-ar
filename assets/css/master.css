@@ -62,17 +62,20 @@
 
 hr {
   display: inline-block;
-  width: 38%;
   margin-bottom: 5px;
 }
 
-.d-lb {
+hr + .d-lb {
   display: inline;
-  padding: 0 24px;
 }
 
 .mb-20 {
   margin-bottom: 20px;
+  padding-right: 0;
+}
+
+#secc1 .pull-right .col-md-12 {
+  padding: 0;
 }
 
 #secc2 {
@@ -195,9 +198,21 @@ footer p {
   margin: 20px 30%;
 }
 
+.col-12 {
+  width: 100%;
+}
+
+.lb-black {
+  background-color: black;
+}
+
+.gray {
+  color: rgba(176, 176, 176, 0.9);
+  font-weight: bolder;
+}
 /***********Responsive***********/
   @media (max-width: 992px){
-    .label {
+    .label, #secc1 p {
       font-size: 60%;
     }
   }
@@ -207,6 +222,9 @@ footer p {
     }
     .desktop {
       display: none;
+    }
+    #secc1 {
+      height: 500px;
     }
   }
   @media (max-width: 648px){
