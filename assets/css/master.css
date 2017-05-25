@@ -226,6 +226,9 @@ footer p {
     #secc1 {
       height: 500px;
     }
+    footer li, footer p {
+      font-size: 90%;
+    }
   }
   @media (max-width: 648px){
     .btn {
@@ -244,6 +247,9 @@ footer p {
       margin-top: 10px;
       margin-bottom: 5px;
     }
+    footer li, footer p {
+      font-size: 80%;
+    }
   }
   @media (max-width: 547px){
     .label {
@@ -252,6 +258,9 @@ footer p {
     h1, h2, h3, h4, h5, h6 {
       margin-top: 5px;
       margin-bottom: 2px;
+    }
+    footer li, footer p {
+      font-size: 70%;
     }
   }
   @media (max-width: 490px){
@@ -264,5 +273,8 @@ footer p {
     h1, h2, h3, h4, h5, h6 {
       margin-top: 3px;
       margin-bottom: 2px;
+    }
+    footer li, footer i, footer p {
+      font-size: 60%;
     }
   }
